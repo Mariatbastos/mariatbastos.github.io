@@ -1,0 +1,139 @@
+html{
+    scroll-behavior:smooth;
+}    
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 6rem;
+    width:400px;
+    margin:5rem auto;
+    line-height: 50%;
+    text-align: center;
+}
+.pcentered{
+    text-align: center;
+    width:350px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    justify-content: space-between;
+    padding:2rem 10% 2rem 10%;
+    background:rgba(255, 255, 255, 0.7);
+}
+
+.section{
+    height:800px;
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+}
+
+.section2{
+    height:900px;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+}
+
+.aboutSection{
+    height:800px;
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    margin:0 3rem;
+}
+
+.project{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin:0 0 0 5%;
+
+}
+
+.description{
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.projectImage{
+    display:flex;
+    align-items: center;
+
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    font-size: 1rem;
+    margin: 4rem 0;
+}
+
+/*  navigation elements */
+button{
+    font-style: normal; 
+    font-weight: bold;
+    font-size: 20px;
+
+    display: flex;
+    text-align: center;
+
+    border:0;
+    background-color: white;
+    border-bottom: 3px solid white;
+}
+
+.dot{
+    background-color:grey;
+    width:10px;
+    height:10px;
+    border-radius: 100%;
+    margin: 4px;
+}
+  
+.groupdot{
+    display:flex;
+    justify-content:center;
+    margin:0 auto;
+    width:auto;
+    position: relative;
+    top:160px;
+}
+
+.arrowdown{
+    margin:0 auto;
+    width:auto;
+    position: relative;
+    top:200px;
+}
+
+.arrowright{
+    position: absolute;
+    right: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+button:hover{
+    border-bottom: 3px solid black;
+}
